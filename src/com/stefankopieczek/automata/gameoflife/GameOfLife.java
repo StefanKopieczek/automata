@@ -4,9 +4,9 @@ import com.stefankopieczek.automata.AutomataDisplay;
 
 public class GameOfLife 
 {
-	public static final int SIZE = 10;
+	public static final int SIZE = 20;
 	public static final float DENSITY = 0.7f;
-	public static final float SCALE = 5.0f;
+	public static final float SCALE = 3.5f;
 	public static final int INITIAL_DELAY = 1000;
 	public static final int GENERATION_GAP = 50;
 	public static final int REDRAW_GAP = 50;
