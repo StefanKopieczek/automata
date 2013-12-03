@@ -154,12 +154,12 @@ public class CellSheetCanvas extends JComponent
 		inputMap.put(DOWN, "evt_pan_down");
 		
 		ActionMap actionMap = getActionMap();
-		actionMap.put("evt_zoom_out", new ZoomAction(0.9));
+		actionMap.put("evt_zoom_out", new ZoomAction(0.8));
 		actionMap.put("evt_zoom_in", new ZoomAction(1.2));
-		actionMap.put("evt_pan_left", new PanAction(-1, 0));
-		actionMap.put("evt_pan_right", new PanAction(1, 0));
-		actionMap.put("evt_pan_up", new PanAction(0, -1));
-		actionMap.put("evt_pan_down", new PanAction(0, 1));
+		actionMap.put("evt_pan_left", new PanAction(-5, 0));
+		actionMap.put("evt_pan_right", new PanAction(5, 0));
+		actionMap.put("evt_pan_up", new PanAction(0, -5));
+		actionMap.put("evt_pan_down", new PanAction(0, 5));
 	}
 	
 	private class ZoomAction extends AbstractAction
